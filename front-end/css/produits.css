@@ -1,0 +1,212 @@
+*, ::before, ::after { 
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+    height: auto;
+    margin: auto;
+    background: bisque;
+}
+
+header img {
+	width: 100px;
+	height: 50px;
+	margin-top: 6px;
+}
+
+.img {
+	background: burlywood;
+	height: 63px;
+	display: flex;
+	justify-content: space-between;
+}
+
+header a {
+	font-family: 'Merienda One', sans-serif;
+	font-size: 20px;
+	text-decoration: none;
+	cursor: pointer;
+	color: white;
+	margin-top: 32px;
+	margin-right: 11px;
+	color: black;
+}
+
+header a:hover {
+	color: brown;
+	transform: scale(1.1);
+
+}
+
+h1 {
+	color: black;
+	font-family: 'Merienda One', cursive;
+	font-size: 30px;
+	text-align: center;
+	border: 3px solid black;
+	border-radius: 8px;
+	margin: 30px 8px;
+	background: burlywood;
+}
+
+main {
+    padding: 10px;
+}
+
+main img {
+	width: 86%;
+	height: 150px;
+	background-repeat: no-repeat;
+	object-fit: cover;
+	border-radius: 20px;
+	margin: 16px;
+	border: 3px solid black;
+}
+   
+.card {
+	width: 80%;
+	height: 425px;
+	box-shadow: 0 0 18px rgba(0, 0, 0, 0.3);
+	border-radius: 20px;
+	background: burlywood;
+	margin: auto;
+	margin-bottom: 30px;
+	border: 2px solid black;
+}
+
+h2 {
+    text-align: center;
+    color: black;
+}
+
+h3 {
+	display: flex;
+	justify-content: center;
+	color: black;
+	margin-top: 15px;
+}
+
+.description {
+    color: black;
+    font-size: larger;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    margin-left: 5px;
+}
+
+.btn {
+	height: 30px;
+	width: 160px;
+	border: 2px solid gray;
+	border-radius: 20px;
+	font-size: medium;
+	margin-left: 40px;
+	margin-top: 10px;
+	background: bisque;
+}
+
+
+.btn:hover {
+    background: burlywood;
+    color: black;
+	transform: scale(1.1);
+}
+
+main a {
+    text-decoration: none;
+    color: black;
+}
+
+span {
+    display: flex;
+    justify-content: space-around;
+	margin-bottom: 16px;
+}
+
+footer {
+	height: 175px;
+	background: burlywood;
+
+
+}
+
+footer nav {
+	display: grid;
+	grid-template-columns: 77px 81px 70px 18px;
+	grid-template-rows: 100%;
+	justify-content: center;
+	margin-top: 40px;
+}
+
+footer a {
+	color: black;
+	font-size: 25px;
+	text-decoration: none;
+	display: flex;
+	gap: 5px;
+	margin-top: 15px;
+}
+
+footer p {
+	margin-top: 10px;
+	font-size: medium;
+	text-align: center;
+	cursor: pointer;
+}
+
+footer a:hover {
+    color: brown;
+	transform: translateY(-5px);
+}
+
+	@media (min-width: 768px) {
+		main img {
+			width: 55%;
+			height: 232px;
+			margin-left: 100px;
+		}
+	
+		.card {
+			width: 65%;
+			height: 500px;
+		}
+
+		h2 {
+			font-size: xx-large;
+		}
+
+		h3 {font-size: x-large;}
+
+		.btn {
+			margin-left: 163px;
+			height: 45px;
+		}
+	}
+
+	@media (min-width: 1024px) {
+		main img {margin-left: 160px;}
+	
+		.card {
+			width: 73%;
+			height: 515px;
+		}
+
+		.btn {
+			margin-left: 283px;
+			height: 51px;
+		}
+
+		.description {
+			font-size: x-large;
+			margin-left: 55px;
+		}
+	}
+
+	
+
+
+
+
